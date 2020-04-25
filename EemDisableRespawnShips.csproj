@@ -123,6 +123,12 @@
     <Compile Include="EEMReSpawnDisabled\Data\Scripts\Thraxus\Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EEMReSpawnDisabled\Data\metadata.mod" />
+    <Content Include="EEMReSpawnDisabled\Data\Thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EEMReSpawnDisabled\Data\modinfo.sbmi" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
